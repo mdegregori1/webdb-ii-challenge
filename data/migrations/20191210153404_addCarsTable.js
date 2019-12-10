@@ -4,8 +4,8 @@ exports.up = function(knex) {
     // critical
     tbl.increments();
     tbl.string('VIN', 17)
-      .notNullable()
       .unique()
+      .notNullable()
       .index()
     tbl.string('make', 150)
       .notNullable()

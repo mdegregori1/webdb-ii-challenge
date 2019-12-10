@@ -19,7 +19,8 @@ exports.up = function(knex) {
       .index()    
 
       // not required
-    tbl.boolean('automatic').defaultTo(true)
+    tbl.string('transmission_type', 150)
+    // tbl.boolean('automatic').defaultTo(true)
     tbl.string('status of title ', 150)
       
 })

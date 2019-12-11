@@ -10,6 +10,9 @@ module.exports = {
     },
     migrations: {
       directory: './data/migrations' // will be created automatically (same for seeds)
+    },
+    seeds: {
+      directory: './data/seeds'
     }
   },
 };
